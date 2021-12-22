@@ -27,3 +27,9 @@ jobs:
       - name: Install dependencies
         run: |
           make install-aws
+      - name: Lint
+        run: |
+          make lint
+      - name: Test
+        run: |
+          make test
